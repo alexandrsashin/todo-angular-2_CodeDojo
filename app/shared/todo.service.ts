@@ -19,7 +19,6 @@ export class TodoService {
 		if (index > -1) {
 			this.todos.splice(index, 1);
 		}
-
 	}
 
 	toggleTodo(todo: Todo) {
